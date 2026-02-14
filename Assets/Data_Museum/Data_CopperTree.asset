@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7bfb512eff39c4b259a4ec4970ecbb20, type: 3}
+  m_Name: Data_CopperTree
+  m_EditorClassIdentifier: Assembly-CSharp::ArtifactData
+  statusText: 'STATUS: CLASSIFIED'
+  officialName: Copper Tree
+  propagandaDescription: A tree look-a-like decoration made of poor quality copper.
+    The residents of Segment 7, deprived of access to state art, have begun to worship
+    objects made from garbage, which demonstrates their civilizational regression.
+  trueName: Copper Tree
+  hiddenTruthDescription: The tree's branches aren't arranged randomly. They create
+    a precise map of Segment 7's underground channels. This is how the Rebels hid
+    their evacuation plans inside a seemingly worthless decoration.
+  revealRotation: {x: -84, y: 6, z: -5}

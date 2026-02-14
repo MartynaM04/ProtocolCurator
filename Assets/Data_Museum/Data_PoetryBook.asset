@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7bfb512eff39c4b259a4ec4970ecbb20, type: 3}
+  m_Name: Data_PoetryBook
+  m_EditorClassIdentifier: Assembly-CSharp::ArtifactData
+  statusText: 'STATUS: CLASSIFIED'
+  officialName: Propaganda Book
+  propagandaDescription: A book full of primitive propaganda texts used by the Rebels
+    to poison the minds of the youth. They urged them to overthrow the government
+    and reject the newly established rules of Prime Time.
+  trueName: Propaganda Book
+  hiddenTruthDescription: This book contains poetry about freedom and nature - things
+    forgotten in Prime Time. The New People rejected poetry, calling it dangerous
+    because it might encourage people to escape the Segments.
+  revealRotation: {x: 6, y: -172, z: 23}

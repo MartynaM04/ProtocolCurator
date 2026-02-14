@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7bfb512eff39c4b259a4ec4970ecbb20, type: 3}
+  m_Name: Data_AccessCard
+  m_EditorClassIdentifier: Assembly-CSharp::ArtifactData
+  statusText: 'STATUS: CLASSIFIED'
+  officialName: Access Card
+  propagandaDescription: An access card to the New People Armory. The rebels used
+    it to illegally obtain weapons, which they used to kill law enforcement units.
+  trueName: Access Card
+  hiddenTruthDescription: The card has a faded inscription. It didn't open an armory,
+    but a food warehouse, which the government blocked to starve the residents of
+    the Segment 7.
+  revealRotation: {x: 45, y: -86, z: -1}

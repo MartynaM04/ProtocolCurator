@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7bfb512eff39c4b259a4ec4970ecbb20, type: 3}
+  m_Name: Data_MarbleHand
+  m_EditorClassIdentifier: Assembly-CSharp::ArtifactData
+  statusText: 'STATUS: CLASSIFIED'
+  officialName: Hand of Tyrant
+  propagandaDescription: Remains of a statue of the Rebel leader. The rebels, in
+    their pride, erected statues of their leaders, wasting valuable resources in
+    the process.
+  trueName: Hand of Tyrant
+  hiddenTruthDescription: The statue never depicted the leader of the Rebellion,
+    but rather the "Mother of the Segment" holding a loaf of bread. It was a symbol
+    of peace and prosperity that the New People ordered to destroy to erase the memory
+    of weal.
+  revealRotation: {x: -95, y: -79, z: -103}

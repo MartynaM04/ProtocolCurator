@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7bfb512eff39c4b259a4ec4970ecbb20, type: 3}
+  m_Name: Data_Hourglass
+  m_EditorClassIdentifier: Assembly-CSharp::ArtifactData
+  officialName: Hourglass
+  propagandaDescription: A symbol of the backwardness of segment 7. They rejected
+    the concept of Prime Time in favor of primitive, unreliable methods of measuring
+    time.
+  trueName: Hourglass
+  hiddenTruthDescription: This is likely one of the last hourglasses in the world.
+    They were all destroyed during the Great Revolution in year 2115, which led to
+    Prime Time.
+  revealRotation: {x: -6, y: -88, z: -102}
