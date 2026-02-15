@@ -45,9 +45,9 @@ Examine and decode all 8 forbidden artifacts:
 
 ## AI Assistance Disclosure
 This project was developed with assistance from **Claude (Anthropic)**. AI helped with:
-* [cite_start]**Code Architecture**: Designing systems like `PickupSystem.cs` and `QuestManager.cs`.
-* [cite_start]**Optimization**: Improving scripts for Unity 6.0.
-* [cite_start]**Documentation**: Generating technical comments and README files.
+* **Code Architecture**: Designing systems like `PickupSystem.cs` and `QuestManager.cs`.
+* **Optimization**: Improving scripts for Unity 6.0.
+* **Documentation**: Generating technical comments and README files.
 
 ---
 *Developed by Martyna Milic | 2025-2026*
