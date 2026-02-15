@@ -4,10 +4,8 @@ using System.Collections;
 using UnityEngine.EventSystems;
 using TMPro;
 
-/// <summary>
 /// Manages main menu UI, game state transitions, and save file handling
-/// Disables Continue button when game is completed
-/// </summary>
+
 public class MainMenuManager : MonoBehaviour
 {
     [Header("UI Panels")]

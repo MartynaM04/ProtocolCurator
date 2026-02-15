@@ -3,10 +3,12 @@ using UnityEngine.UI;
 using System.Collections;
 using System.Collections.Generic;
 
+// Creates flickering neon effect
+
 public class NeonFlicker : MonoBehaviour
 {
     [Header("Target Components")]
-    // We will flicker all outlines and shadows on this object
+
     public List<Shadow> neonComponents = new List<Shadow>();
 
     [Header("Flicker Settings")]
@@ -24,13 +26,11 @@ public class NeonFlicker : MonoBehaviour
             neonComponents.AddRange(GetComponents<Shadow>());
         }
 
-        // Default start color (Propaganda Red)
         if (neonComponents.Count > 0) currentColor = neonComponents[0].effectColor;
         
         StartCoroutine(FlickerRoutine());
     }
 
-    // Called by QuestManager when 8/8 artifacts are found
     public void SwitchToTruthColor(Color cyanColor)
     {
         currentColor = cyanColor;

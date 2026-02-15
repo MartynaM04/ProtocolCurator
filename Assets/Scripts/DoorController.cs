@@ -1,9 +1,8 @@
 using UnityEngine;
 using System.Collections;
 
-/// <summary>
 /// Controls door opening animation and end game trigger activation
-/// </summary>
+
 public class DoorController : MonoBehaviour
 {
     [Header("Movement Settings")]

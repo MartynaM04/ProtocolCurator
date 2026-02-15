@@ -1,9 +1,8 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-/// <summary>
 /// Handles player movement, sprinting, jumping, and camera look controls
-/// </summary>
+
 public class PlayerMovement : MonoBehaviour
 {
     [Header("Movement")]

@@ -3,10 +3,9 @@ using TMPro;
 using System.Collections;
 using UnityEngine.InputSystem;
 
-/// <summary>
 /// Manages game introduction sequence with narrative text and ambient sound timing.
 /// Controls fade transitions, text typing effects, and player activation.
-/// </summary>
+
 public class IntroSequenceManager : MonoBehaviour
 {
     [Header("UI Panels")]

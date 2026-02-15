@@ -1,6 +1,8 @@
 using UnityEngine;
 using System.Collections;
 
+// Creates camera shake
+
 public class CameraShake : MonoBehaviour
 {
     private Vector3 originalPos;
@@ -10,7 +12,6 @@ public class CameraShake : MonoBehaviour
         originalPos = transform.localPosition;
     }
 
-    // Call this method to start the shake
     public void Shake(float duration, float magnitude)
     {
         StopAllCoroutines();
@@ -23,7 +24,7 @@ public class CameraShake : MonoBehaviour
 
         while (elapsed < duration)
         {
-            // Calculate a random offset [cite: 2026-01-21]
+
             float x = Random.Range(-1f, 1f) * magnitude;
             float y = Random.Range(-1f, 1f) * magnitude;
 
@@ -33,7 +34,6 @@ public class CameraShake : MonoBehaviour
             yield return null;
         }
 
-        // Reset to the original position after shaking [cite: 2026-01-21]
         transform.localPosition = originalPos;
     }
 }
